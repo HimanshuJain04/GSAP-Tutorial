@@ -1,0 +1,50 @@
+* {
+    margin    : 0;
+    padding   : 0;
+    box-sizing: border-box;
+}
+
+#main {
+    width          : 100%;
+    height         : 100vh;
+    background     : #000000;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+}
+
+#image {
+    width   : 70vw;
+    height  : 60vh;
+    position: relative;
+}
+
+#image img {
+    width          : 100%;
+    height         : 100%;
+    background-size: contain;
+}
+
+#layer {
+    width     : 100%;
+    height    : 100%;
+    background: transparent;
+    position  : absolute;
+    top       : 0;
+    z-index   : 10;
+}
+
+#cursor {
+    height          : 20px;
+    width           : 20px;
+    border-radius   : 50%;
+    background-color: white;
+    position        : fixed;
+    font-size       : 5px;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    text-align      : center;
+    z-index         : 8;
+
+}
