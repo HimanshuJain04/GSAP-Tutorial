@@ -2,8 +2,7 @@
     margin     : 0;
     padding    : 0;
     box-sizing : border-box;
-    font-family: "Gilroy";
-    color      : white
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 html,
@@ -12,4 +11,28 @@ body {
     width           : 100%;
     background-color: #000;
     overflow-x      : hidden;
+}
+
+#page1,
+#page2,
+#page3 {
+
+    width : 100%;
+    height: 100vh;
+}
+
+#move {
+    background-color: lawngreen;
+    display         : flex;
+    padding         : 2vw 0;
+}
+
+#marque h1 {
+    font-size: 70px;
+}
+
+#marque {
+    padding    : 0px 3vw;
+    flex-shrink: 0;
+    transform  : translateX(-100%);
 }
